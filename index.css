@@ -1,0 +1,33 @@
+#formulario{
+
+width: 50%;
+
+}
+
+#nome_{
+    width: 60%;
+}
+
+#enviar{
+    width: 62%;
+    background-color: gray;
+}
+
+table, td, th{
+
+    margin-top: 5%;
+    align-self: center;
+    align-content: center;
+    border: 1px solid #595959;
+    border-collapse: collapse;
+    
+}
+
+td, th{
+
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    width: 150px;
+    height: 25px;
+}

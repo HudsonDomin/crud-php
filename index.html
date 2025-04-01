@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/index.css">
+</head>
+<body>
+    <center>
+<h3>Cadastro de Corretor</h3>
+    
+    <div id="formulario">
+        <form action="cadastro.php" method="post">
+            <input type="text" name="cpf" id="cpf_" placeholder="Digite seu CPF" required>
+            <input type="text" name="creci" id="creci_" placeholder="Digite seu Creci" required><br>
+            <input type="text" name="nome" id="nome_" placeholder="Digite seu nome" required><br>
+            <input type="submit" id="enviar" value="Enviar">
+        </form>
+    </div>
+
+    <div id="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Creci</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Hudson</td>
+                    <td>36357586803</td>
+                    <td>3919</td>
+                    <td>
+                        <button class="actions" type="button" name="Editar"><img src="../static/img/editar.svg" width="50%" alt="Editar"></button>
+                        <button class="actions" type="button" name="Excluir"><img src="../static/img/cruz.svg" width="50%" alt="Excluir"></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</center>
+</body>
+</html>
